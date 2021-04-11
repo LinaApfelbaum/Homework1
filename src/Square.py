@@ -2,6 +2,7 @@ import math
 
 from src.Figure import Figure
 
+
 class Square(Figure):
     def __init__(self, side):
         super().__init__('Square', 4)

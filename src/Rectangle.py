@@ -1,5 +1,6 @@
 from src.Figure import Figure
 
+
 class Rectangle(Figure):
     def __init__(self, length, width):
         super().__init__('Rectangle', 4)

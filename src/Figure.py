@@ -5,11 +5,13 @@ class Figure:
 
     @property
     def area(self):
-        raise NotImplementedError("Method must be implemented in child classes")
+        raise NotImplementedError(
+            "Method must be implemented in child classes")
 
     @property
     def perimeter(self):
-        raise NotImplementedError("Method must be implemented in child classes")
+        raise NotImplementedError(
+            "Method must be implemented in child classes")
 
     def add_area(self, figure):
         if not issubclass(type(figure), Figure):

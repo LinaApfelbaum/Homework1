@@ -2,6 +2,7 @@ import math
 
 from src.Figure import Figure
 
+
 class Circle(Figure):
     def __init__(self, radius):
         super().__init__('Circle', 0)
